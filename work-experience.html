@@ -2,13 +2,15 @@
 <html>
   <head>
     <title>Noah Moscovici</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
       <h1 class="logo">
         <a href="index.html">
-          <img src="frog.png" alt="website logo" width="50" height="50" />
+          <img src="frog.png" alt="website logo" class="rounded" />
+          &nbspNoah Moscovici
         </a>
       </h1>
       <ul class="nav-list">
@@ -20,20 +22,21 @@
     </nav>
     <main>
       <div>
-        <h1 class="page-title">work experience</h1>
+        <h1 class="page-title">where have i worked?</h1>
+        <hr class="linebreak" />
         <div class="work-experiences">
-          <div class="experience-1">
-            <div class="experience-1-image">
+          <div class="experience">
+            <div class="experience-image">
               <img
                 src="upliftlogo.png"
                 alt="uplift logo"
-                width="200"
-                height="200"
+                width="250"
+                height="250"
               />
             </div>
-            <div class="experience-1-details">
-              <h3>Uplift</h3>
-              <h4>
+            <div class="experience-details">
+              <h3 class="experience-title">Uplift</h3>
+              <h4 class="experience-subtitle">
                 <i
                   >June 2022 - September 2023, FULL-TIME; (acquired by Upgrade
                   Inc. in July, 2023)</i
@@ -44,11 +47,13 @@
                   Implementation of machine learning XGBoost features used for
                   loan underwriting
                 </li>
+                <br />
                 <li>
                   Developed internal tooling to manage >200 vendor-specific
                   configurations. Worked on frontend and backend service that
                   also communicated directly with other internal services
                 </li>
+                <br />
                 <li>
                   Designed, implemented, and deployed core backend service to
                   manage authentication, authorization, and store all customer
@@ -57,34 +62,41 @@
                 </li>
               </ul>
             </div>
+            <hr class="linebreak" />
           </div>
-          <div class="experience-2">
-            <div class="experience-2-image">
+          <div class="experience">
+            <div class="experience-image">
               <img
                 src="palacegameslogo.png"
                 alt="palace games logo"
-                width="200"
-                height="200"
+                width="250"
+                height="250"
               />
             </div>
-            <div class="experience-2-details">
-              <h3>Palace Games</h3>
-              <h4><i>(July 2016 - June 2022, PART-TIME)</i></h4>
+            <div class="experience-details">
+              <h3 class="experience-title">Palace Games</h3>
+              <h4 class="experience-subtitle">
+                <i>(July 2016 - June 2022, PART-TIME)</i>
+              </h4>
               <ul class="work-summary-list">
                 <li>Implemented data warehouse for analytics</li>
+                <br />
                 <li>
                   Researched and implemented/adapted open source pub/sub
                   communication framework central to Palace Games architecture
                 </li>
+                <br />
                 <li>
                   Developed internal tooling for management of Palace Games
                   infrastructure, live game monitoring and developer debugging
                 </li>
+                <br />
                 <li>
                   Implemented core systems in game architecture, such as gateway
                   between Unity and Python Banyan, multi-input management for 8
                   input devices
                 </li>
+                <br />
                 <li>
                   Configured and managed Palace Games infrastructure: such as
                   data warehousing, on-premise network with DNS & VPN servers,
@@ -99,7 +111,7 @@
     </main>
     <footer class="footer">
       © 2023 Noah Moscovici | All Rights Reserved | Made with
-      <span style="color: #e25555">&hearts;</span>
+      <span style="color: #e25555">&nbsp&hearts;</span>
     </footer>
   </body>
 </html>

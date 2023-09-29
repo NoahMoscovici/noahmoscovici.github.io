@@ -2,13 +2,15 @@
 <html>
   <head>
     <title>Noah Moscovici</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav class="navbar">
       <h1 class="logo">
         <a href="index.html">
-          <img src="frog.png" alt="website logo" width="50" height="50" />
+          <img src="frog.png" alt="website logo" class="rounded" />
+          &nbspNoah Moscovici
         </a>
       </h1>
       <ul class="nav-list">
@@ -20,18 +22,19 @@
     </nav>
     <main>
       <div>
-        <h1 class="page-title">contact me</h1>
+        <h1 class="page-title">how do i talk to you?</h1>
+        <hr class="linebreak" />
         <div class="contact">
           <div class="contact-image"></div>
           <div class="contact-text">
             <p>
               Feel free to contact me through my email, noah.moscovici@gmail.com
-              (<a href="mailto:noah.moscovici@gmail.com">click me!</a>)
+              (<a href="mailto:noah.moscovici@gmail.com">click me!</a>) ...or
+              using the below form:
             </p>
           </div>
-          <p>...or using the below form:</p>
           <form id="contact-form">
-            <label for="name">Your name: </label>
+            <label for="name">name: </label>
             <input
               type="text"
               id="name"
@@ -40,7 +43,7 @@
               required
             />
             <br /><br />
-            <label for="email">Your email: </label>
+            <label for="email">email: </label>
             <input
               type="email"
               id="email"
@@ -49,8 +52,7 @@
               required
             />
             <br /><br />
-            <label for="message">Your message: </label>
-            <br />
+            <label for="message">message: </label>
             <textarea
               id="message"
               name="message"
@@ -68,7 +70,7 @@
     </main>
     <footer class="footer">
       © 2023 Noah Moscovici | All Rights Reserved | Made with
-      <span style="color: #e25555">&hearts;</span>
+      <span style="color: #e25555">&nbsp&hearts;</span>
     </footer>
   </body>
 </html>
